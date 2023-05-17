@@ -1,0 +1,88 @@
+.card {
+    margin-right: 15px;
+    padding: 13px;
+    
+   
+    display:inline-flex;
+    cursor: pointer;
+    
+    
+  }
+  
+  .card .favorite {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .card .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card .image img {
+    height: 100px;
+  
+    text-align: center;
+  }
+  .card .content .rate {
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .card .content .category {
+    font-size: medium;
+  }
+  .card .content .name {
+    font-size: small;
+  }
+  .card .date {
+    display: flex;
+    justify-content: flex-end;
+    font-size: small;
+  }
+  
+element.style {
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(211 48 47);
+    border-color: whitesmoke;
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    /* background-color: var(--bs-btn-hover-bg); */
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+a:hover {
+    --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+.btn {
+    --bs-btn-padding-y: 0.200rem;
+}
+.btn-primary{
+  background-color: whitesmoke;
+  border-color: rgb(211 48 47);
+  color: rgb(211 48 47);
+}
+.btn-primary:hover{
+  background-color: rgb(211 48 47);
+  border-color: rgb(211 48 47);
+  color: whitesmoke;
+}
+  

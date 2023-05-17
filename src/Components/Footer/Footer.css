@@ -1,0 +1,62 @@
+.footerParentDiv {
+  width: 100vw;
+ 
+}
+.footerParentDiv .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:whitesmoke;
+  padding: 16px;
+  
+  
+}
+.footerParentDiv .content .heading {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.footerParentDiv .footer {
+ 
+ 
+  padding: 10px;
+  background:#cb3800;
+  height: 100;
+  color: whitesmoke;
+  
+}
+
+
+.logo7{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+  
+}
+.footer{
+ 
+  border-radius: 100% / 30% 30% 0 0;
+  
+}
+.item {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  @media only screen and (max-width: 350px) {
+    .footer{
+      display: none;
+    }
+  }

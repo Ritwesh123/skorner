@@ -1,0 +1,90 @@
+.bannerParentDiv {
+  padding-top: 3em;
+} 
+
+.bannerParentDiv .bannerChildDiv .menuBar {
+  display: flex;
+  padding: 5px 0px 0px 0px;
+}
+
+
+
+.bannerParentDiv .bannerChildDiv .menuBar .categoryMenu span {
+  margin-right: 16px;
+  font-weight: bolder;
+}
+
+
+.bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions span {
+  padding: 5px;
+}
+
+.bannerChildDiv .banner {
+  position: relative;
+  width: 100vw;
+}
+.bannerChildDiv .banner img{
+  width: 100vw;
+}
+
+@media only screen and (max-width: 700px) {
+  .otherQuickOptions {
+    display: none;
+  }
+
+  .bannerChildDiv .banner {
+    position: relative;
+  }
+}
+
+.otherQuickOptions span{
+  cursor: pointer;
+
+  
+  
+}
+.dropdown{
+  border-radius: 0.4rem;
+height: 30px;
+margin: 10px
+  
+}
+.btn-group
+{
+  height: 30px;
+  margin: 10px;
+}
+.btntxt
+{
+  margin: 2px;
+}
+.btn-secondary
+{
+  --bs-btn-bg:rgb(211 48 47);
+}
+hr.class-1 {
+  border-top: 2px double #8c8b8b;
+}
+.btn-default-signup
+{
+  position: absolute;
+  right: 40%;
+  bottom: 5%;
+  background: rgb(211 48 47);
+  color:whitesmoke;
+
+}
+.btn-default-signup:hover
+{
+  background-color: #8c8b8b;
+  color: whitesmoke;
+}
+
+.carousel.inner{
+  position: relative;
+}
+@media only screen and (max-width: 800px) {
+  .btn-default-signup{
+    display: none;
+  }
+}
