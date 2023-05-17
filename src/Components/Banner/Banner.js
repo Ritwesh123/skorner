@@ -53,19 +53,19 @@ function Banner() {
             <div className="carousel-inner">
             
               <div className="carousel-item active">
-              <img src={require("C:/Users/RITWESH/Desktop/skorner/src/images/banner2.png")} class="d-block w-100" alt="..."/>
+              <img src={require("/opt/skorner/src/images/banner2.png")} class="d-block w-100" alt="..."/>
                   {!user && (<Link to="/signup" ><button type="button" className="btn btn-default-signup">signup</button></Link>)}
               
               
             
     </div>
                 <div className="carousel-item">
-                <img src={require("C:/Users/RITWESH/Desktop/skorner/src/images/banner3.png")} className="d-block w-100" alt="..."/>
+                <img src={require("/opt/skorner/src/images/banner3.png")} className="d-block w-100" alt="..."/>
                  
     </div>
                   <div className="carousel-item">
                   
-                  <img src={require("C:/Users/RITWESH/Desktop/skorner/src/images/banner1.png")} className="d-block w-100" alt="..."/>
+                  <img src={require("/opt/skorner/src/images/banner1.png")} className="d-block w-100" alt="..."/>
     </div>
                   </div>
                   <button className="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">

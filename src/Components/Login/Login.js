@@ -34,7 +34,7 @@ function Login() {
     {loading && <RoundLoading/> }
     <div>
       <div className="loginParentDiv">
-        <img className="logologin" src={require("C:/Users/RITWESH/Desktop/skorner/src/logo/logo4.png")} width="400px" height="" alt=""></img>
+        <img className="logologin" src={require("/opt/skorner/src/logo/logo4.png")} width="400px" height="" alt=""></img>
         <form onSubmit={handleSubmit}>
           <label>Email</label>
           <br />

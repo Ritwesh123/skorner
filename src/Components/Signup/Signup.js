@@ -57,7 +57,7 @@ export default function Signup() {
   return (<>
     {loading && <SignUpLoading/> } <div>
       <div className="signupParentDiv">
-        <img className="logosignup"  src={require("C:/Users/RITWESH/Desktop/skorner/src/logo/logo4.png")}  width="400px" height=""alt=""></img>
+        <img className="logosignup"  src={require("/opt/skorner/src/logo/logo4.png")}  width="400px" height=""alt=""></img>
         <form onSubmit={handleSubmit}>
           <label>Full Name</label>
           <br />

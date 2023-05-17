@@ -51,7 +51,7 @@ function Header() {
     <div className="headerParentDiv">
       <div className="headerChildDiv">
         <div className="brandName">
-        <img className="logo" src={require("C:/Users/RITWESH/Desktop/skorner/src/logo/logo5.png") } width="160px"
+        <img className="logo" src={require("/opt/skorner/src/logo/logo5.png") } width="160px"
         height="" />
         </div>
         
